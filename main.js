@@ -33,7 +33,7 @@ $.ajax({
 
     method: "GET",  // 전송방식
 
-    url: "https://dapi.kakao.com/v3/search/book?target=title", // 전송주소 다스 들어가면
+    url: "https://dapi.kakao.com/v3/search/book?target=title", // 전송주소
 
     data: { query: `${keyword}` }, //보낼 데이터
     
